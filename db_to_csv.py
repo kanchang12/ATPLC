@@ -16,7 +16,7 @@ def collect_data(db):
     print("Connected to DataBase")
 
     #Selecting all data from database
-    query = """select * from Google_sheet"""
+    query = """select * from Google_sheet1"""
     cursor.execute(query)
     global records
     records = cursor.fetchall()
